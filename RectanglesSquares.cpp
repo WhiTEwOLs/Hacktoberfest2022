@@ -1,4 +1,7 @@
-int countGoodRectangles(vector<vector<int>>& rectangles) {
+#include<bits/stdc++.h>
+ using namespace std;
+ 
+ int countGoodRectangles(vector<vector<int>>& rectangles) {
         map<int,int> mp;
         int mini = INT_MAX;
         for(int i=0;i<rectangles.size();i++){
